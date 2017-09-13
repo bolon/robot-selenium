@@ -27,6 +27,9 @@ Welcome Page Should Be Open
 Welcome Page Should Be not Open
   Should Not Be True    Title Should Be    Github
 
+Error Message Should Be Displayed
+  Page Should Contain    Incorrect username or password.
+
 Submit Valid Credential
       #explicit selector using xpath
       #note : xpath in general slower than css selector
