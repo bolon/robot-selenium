@@ -1,14 +1,12 @@
 *** Settings ***
 Documentation   A resource file with reusable keywords and variables.
 Library         Selenium2Library
+Resource        ../secret.robot
 
 *** Variables ***
 ${BASE_URL}     github.com
 ${BROWSER}      Google Chrome
 ${DELAY}        0
-${VALID_USER}   testnnd
-${VALID_PWD}    testnnd123
-${INVALID_PWD}  1245678asd
 ${LOGIN_URL}    http://${BASE_URL}/login
 
 *** Keywords ***
